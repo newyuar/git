@@ -1,0 +1,10 @@
+# CycleGAN 核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+pillow>=8.0.0
+dominate>=2.4.0
+visdom>=0.1.8.9
+
+# 可选依赖
+wandb>=0.12.0  # 用于训练日志可视化（可选）
